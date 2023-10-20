@@ -1,0 +1,15 @@
+[package]
+name = "fastprio"
+version = "0.1.0"
+edition = "2021"
+authors = ["Zachary Mayhew"]
+license = "MIT"
+description = "A fast O(1), no_std priority queue using buckets"
+repository = "https://github.com/zacklukem/fastprio/"
+keywords = ["no_std", "nostd", "no-std", "heap"]
+
+[dependencies]
+heapless = { version = "0.7.16", optional = true }
+
+[features]
+std = []
